@@ -35,3 +35,49 @@ For example:
   align-items: flex-end;
 }
 ```
+---
+ **``flex-direction``** property defines the direction items are placed in the container, and accepts the following values:
+
+- ```row```: Items are placed the same as the text direction.
+- ```row-reverse```: Items are placed opposite to the text direction.
+- ```column```: Items are placed top to bottom.
+- ```column-reverse```: Items are placed bottom to top.
+
+```css
+#block {
+  display: flex;
+  /* blocks will be placed top to bottom */
+  flex-direction: column;
+}
+```
+---
+**``order``**, applied to individual items. This property accepts intergers to order the elements.
+
+By default, items have a value of 0, but we can use this property to set it to a positive or negative integer value.
+
+for example:
+```css
+#pond {
+  display: flex;
+}
+
+.yellow {
+  order: 1; 
+}
+```
+---
+**``align-self``**, applied to individual items. This property accepts the same values as align-items and its value for the specific item.
+
+for example:
+```css
+#pond {
+  display: flex;
+  align-items: flex-start;
+}
+
+.yellow {
+  align-self: flex-end;
+}
+```
+
+
