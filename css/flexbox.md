@@ -79,5 +79,26 @@ for example:
   align-self: flex-end;
 }
 ```
+---
+**``flex-wrap``** property, wraps elements so they don't look squished 😜. It  accepts the following values:
+
+- ```nowrap```: Every item is fit to a single line.
+- ```wrap```: Items wrap around to additional lines.
+- ```wrap-reverse```: Items wrap around to additional lines in reverse.
+
+for example:
+```css
+#pond {
+  display: flex;
+  flex-wrap: wrap;
+}
+```
+---
+**``flex-flow``**, shorthand property for:
+```css
+.block {
+  flex-flow: <flex-direction> <flex-wrap>;
+}
+```
 
 
