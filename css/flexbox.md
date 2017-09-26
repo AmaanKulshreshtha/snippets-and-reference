@@ -1,6 +1,7 @@
-### Fun exercise : [flexfroggy](http://flexboxfroggy.com/)
+## Fun exercise : [flexfroggy](http://flexboxfroggy.com/)
+## More info: [mozilla flexbox layout docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
 ---
-**```justify-content```** property aligns items **horizontally** and accepts the following values:
+**```justify-content```** property aligns items ~~horizontally~~ **along the main axis** and accepts the following values:
 
 - ```flex-start```: Items align to the left side of the container.
 - ```flex-end```: Items align to the right side of the container.
@@ -18,7 +19,7 @@ For example:
 }
 ```
 --- 
- **```align-items```** property aligns items **vertically** and accepts the following values:
+ **```align-items```** property aligns items ~~vertically~~ **along the cross axis** and accepts the following values:
 
 - ```flex-start```: Items align to the top of the container.
 - ```flex-end```: Items align to the bottom of the container.
