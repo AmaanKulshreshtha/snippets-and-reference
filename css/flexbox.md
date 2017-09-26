@@ -67,7 +67,7 @@ for example:
 }
 ```
 ---
-**``align-self``**, applied to individual items. This property accepts the same values as align-items and its value for the specific item.
+**``align-self``**, applied to individual items. This property defines how a single flex item is aligned on the **cross axis**, and overrides the default established by align-items.
 
 for example:
 ```css
