@@ -1,4 +1,4 @@
-**Bootstrap 3 Media Queries**
+**Bootstrap 3 Media Queries + some modifications from me** 
 
 ```css
 
@@ -23,6 +23,11 @@
     @media only screen and (min-width : 992px) {
 
     }
+    
+    /* iPad */
+    @media only screen and (min-width : 1024px) {
+    
+    }
 
     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
@@ -36,6 +41,11 @@
     /* Large Devices, Wide Screens */
     @media only screen and (max-width : 1200px) {
 
+    }
+    
+     /* iPad */
+    @media only screen and (min-width : 1024px) {
+    
     }
 
     /* Medium Devices, Desktops */
