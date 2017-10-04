@@ -24,18 +24,37 @@
 
     }
     
-    /* iPad */
-    @media only screen and (min-width : 1024px) {
-    
+    /* iPad-sized tablets */
+    @media only screen and (min-width: 1024px) {
+  
     }
-
-    /* Large Devices, Wide Screens */
+    
+     /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
 
     }
+    
+    /* iPad Portrait */
+    @media only screen and (min-width: 768px) and (min-height: 1024px) and (orientation: portrait) {
+  
+    }
 
+    /* iPad Landscape */
+    @media only screen and (min-width: 1024px) and (min-height: 768px) and (orientation: landscape) {
+  
+    }
 
+    /* iPad Pro Portrait */
+    @media only screen and (min-width: 1024px) and (min-height: 1366px) and (orientation: portrait) {
+  
+    }
+    
+    /* iPad Pro Landscape*/
+    @media only screen and (min-width: 1366px) and (min-height: 1024px) and (orientation: landscape) {
+ 
+    }
 
+   
     /*==========  Non-Mobile First Method  ==========*/
 
     /* Large Devices, Wide Screens */
