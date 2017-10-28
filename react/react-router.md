@@ -1,4 +1,4 @@
-*REACT ROUTER SAMPLE*
+*[REACT ROUTER](https://medium.com/@AkyunaAkish/understanding-react-router-4-df73a66d96c4)*
 
 ```javascript
 import React, { Component } from 'react';
@@ -28,4 +28,36 @@ class Router extends Component {
 };
 
 export default Router;
+```
+*LINKS*
+
+```javascript
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { LinkContainer } from 'react-router-bootstrap';
+
+class Todos extends Component {
+    constructor(props) {
+        super(props);
+    }
+
+    render() {
+        // use the "to" prop on the Link or LinkContainer component to specify the route you wish to navigate the user to
+        return (
+            <div className='todos'>
+                <div className='text-right'>                    
+                    <Link to='/todos/new' className='btn btn-primary'>
+                        Create Todo
+                    </Link>
+
+                    <LinkContainer to='/todos/new'>
+                      <SomeNestedComponentThatNeedsDivParentNotAnchorTagParent />
+                    </LinkContainer>
+                </div>
+            </div>
+        );
+    }
+};
+
+export default Todos;
 ```
