@@ -1,5 +1,6 @@
 ## Fun exercise : [flexfroggy](http://flexboxfroggy.com/)
 ## More info: [mozilla flexbox layout docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout)
+
 ---
 **```justify-content```** property aligns items ~~horizontally~~ **along the main axis** and accepts the following values:
 
@@ -114,5 +115,9 @@ for example:
 *This can be confusing, but align-content determines the spacing between lines, while align-items determines how the items as a whole are aligned within the container. When there is only one line, align-content has no effect.*
 
 For more info about differences between align-items and align-content: [see link](https://stackoverflow.com/questions/31250174/css-flexbox-difference-between-align-items-and-align-content)
+
+---
+### Gotchas:
+- [flex-basis vs width](http://gedd.ski/post/the-difference-between-width-and-flex-basis/)
 
 
