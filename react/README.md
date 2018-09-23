@@ -8,3 +8,5 @@
 - [React mini-patterns](https://hackernoon.com/10-react-mini-patterns-c1da92f068c5)
 
 - [Learn to spot red flags in your React/JavaScript code](https://medium.freecodecamp.org/learn-to-spot-red-flags-in-your-react-javascript-code-d52d5fac85f4)
+
+- [Immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/?utm_campaign=0918immutability)
