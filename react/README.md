@@ -10,3 +10,5 @@
 - [Learn to spot red flags in your React/JavaScript code](https://medium.freecodecamp.org/learn-to-spot-red-flags-in-your-react-javascript-code-d52d5fac85f4)
 
 - [Immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/?utm_campaign=0918immutability)
+
+- [Async data fetch on props change](https://github.com/reactjs/rfcs/issues/26)
