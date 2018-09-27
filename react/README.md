@@ -12,3 +12,6 @@
 - [Immutability in React and Redux](https://daveceddia.com/react-redux-immutability-guide/?utm_campaign=0918immutability)
 
 - [Async data fetch on props change](https://github.com/reactjs/rfcs/issues/26)
+
+### Fundamentals
+- [Reacy Lifecycle diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
