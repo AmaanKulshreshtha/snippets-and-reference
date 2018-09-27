@@ -15,3 +15,5 @@
 
 ### Fundamentals
 - [Reacy Lifecycle diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
+
+- [React Components - lifecycles and api](https://reactjs.org/docs/react-component.html)
