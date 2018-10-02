@@ -17,3 +17,9 @@
 - [Reacy Lifecycle diagram](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)
 
 - [React Components - lifecycles and api](https://reactjs.org/docs/react-component.html)
+
+### Redux
+
+- [Redux Fundamentals](https://egghead.io/series/getting-started-with-redux)
+
+- [Building React Applications with Idiomatic Redux](https://egghead.io/courses/building-react-applications-with-idiomatic-redux)
