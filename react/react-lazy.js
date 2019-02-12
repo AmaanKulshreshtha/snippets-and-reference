@@ -9,10 +9,7 @@ import Retry from 'ReactComponents/user-authentication/pages/Retry';
 const AsyncComponent = path => {
   const factory = () =>
     import(/* webpackChunkName: "[request]" */
-    /* webpackPrefetch: true */ `../${path}`)
-    .catch(() => ({
-      default: () => <Retry onRetry={/* pass retry import here*/}/>
-    }));
+    /* webpackPrefetch: true */ `../${path}`);
   const Component = React.lazy(factory);
   Component.preload = factory;
   return Component;
