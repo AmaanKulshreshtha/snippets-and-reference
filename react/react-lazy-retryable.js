@@ -1,7 +1,10 @@
 import React, { Component, lazy } from 'react';
-import Retry from 'ReactComponents/Retry';
+import Retry from './Retry';
 
 const AsyncComponent = path => {
+  const importModule = () =>
+    import(/* webpackChunkName: "[request]" */
+    /* webpackPrefetch: true */ `../${path}`);
   class RetryableLazy extends Component {
     state = {
       Comp: null
@@ -12,14 +15,12 @@ const AsyncComponent = path => {
     }
 
     factory = () =>
-      import(/* webpackChunkName: "[request]" */
-      /* webpackPrefetch: true */ `../${path}`).catch(() => ({
+      importModule().catch(() => ({
         default: () => <Retry retry={this.loadComponent(this.factory)} />
       }));
 
     loadComponent = factory => () => {
       const Comp = lazy(factory);
-      Comp.preload = factory;
       this.setState({
         Comp
       });
@@ -27,10 +28,11 @@ const AsyncComponent = path => {
 
     render() {
       const { Comp } = this.state;
-      return Comp && <Comp />;
+      return Comp && <Comp {...this.props} />;
     }
   }
 
+  RetryableLazy.preload = importModule;
   return RetryableLazy;
 };
 
